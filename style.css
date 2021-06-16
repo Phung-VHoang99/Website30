@@ -92,3 +92,22 @@
    .breadcrumb.customer {
        background-color: #F0F0F0;
    }
+   
+   .border-none {
+       border: none!important;
+       margin: 20px 0px;
+   }
+   
+   .background-FFFF {
+       background-color: #FFFF;
+   }
+   
+   .card-body {
+       padding: 0rem 0rem!important;
+   }
+   
+   .media-image {
+       width: 110px;
+       height: 110px!important;
+       background-size: cover;
+   }
