@@ -81,8 +81,8 @@
        background-color: #FF8C00;
    }
    
-   span.text-\#FF8C00 {
-       color: #FF8C00;
+   .text-\#FF8C00 {
+       color: #FF8C00!important;
    }
    
    .section-content-2 {
@@ -110,4 +110,18 @@
        width: 110px;
        height: 110px!important;
        background-size: cover;
+   }
+   
+   .content-body {
+       width: 100%;
+       display: flex;
+   }
+   
+   .card-body.w-210 {
+       width: 210px;
+   }
+   
+   img.card-img-top {
+       width: 100%;
+       height: 140px;
    }
