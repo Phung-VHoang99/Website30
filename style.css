@@ -39,10 +39,6 @@
     max-width: 1000px!important;
 }
 
-.nav-item a.nav-link.nav-solid {
-    border-right: 2px solid #868686;
-}
-
 .form-control:focus {
     box-shadow: none;
     border-color: #c7c7c7!important;
@@ -179,4 +175,117 @@ input.outline-none:focus {
 
 .background-252525 {
     background-color: #252525!important;
+}
+
+
+/* .nav-item a.nav-link img {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+} */
+
+ul.flex-icon {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(1%, -50%);
+}
+
+ul.flex-icon li.nav-item {
+    list-style: none;
+}
+
+ul.flex-icon li.nav-item a {
+    width: 25px;
+    height: 25px;
+    /* text-align: center; */
+    line-height: 0;
+    /* font-size: 35px; */
+    margin: 0px 5px;
+    display: block;
+    border-radius: 50%;
+    /* right: 156px; */
+    /* position: static; */
+    overflow: hidden;
+    border: 2px solid #fff;
+    z-index: 1;
+}
+
+ul.flex-icon li.nav-item a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+    transform: translate(-30%, -25%);
+    width: 15px;
+    height: 15px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary {
+    height: 60px;
+}
+
+ul.flex-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul.flex-menu li {
+    /* padding: 10px; */
+}
+
+.custom-border {
+    position: relative;
+}
+
+.custom-border:after {
+    content: " ";
+    position: absolute;
+    border-left: 1px #6c757d solid;
+    top: 25%;
+    right: 0;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.custom-border:last-child:after {
+    content: "";
+    border: none;
+}
+
+a.nav-link.nav-solid span {
+    font-size: 14px;
+}
+
+a.nav-link.nav-solid p {
+    font-size: 11px;
+    color: #252525;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+a.navbar-brand {
+    font-size: 40px;
+}
+
+ul.flex-icon a.nav-link {
+    background: #252525;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary {
+    background: #3F3F3F!important;
+}
+
+button#basic-addon2 {
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: #ffff;
+}
+
+.header-title h1 {
+    font-size: 85px;
+    color: #DDDDDD;
 }
